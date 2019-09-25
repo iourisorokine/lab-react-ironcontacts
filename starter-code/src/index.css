@@ -2,4 +2,24 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.headings {
+  display: flex;
+  padding: 20px;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+}
+
+.contact-card * {
+  padding: 10px;
+}
+
+.buttons-set {
+  display: flex;
 }
